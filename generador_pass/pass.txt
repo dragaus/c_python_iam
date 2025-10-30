@@ -1,0 +1,5 @@
+{'sitio': 'google', 'usuario': 'pedro', 'password': '3-?8__Y6*4#9'}
+{'sitio': 'x', 'usuario': 'trinity', 'password': '_4#-fK*_9-5?'}
+{'sitio': 'facebook', 'usuario': 'gat', 'password': '-Ob..5Vu**X.'}
+{'sitio': 'amazon', 'usuario': 'jeff', 'password': '4Rf-*vkpk6YK'}
+{'sitio': 'x', 'usuario': 'neo', 'password': '1L6_0G3Gu1?-'}

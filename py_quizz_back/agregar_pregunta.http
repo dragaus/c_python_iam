@@ -1,0 +1,69 @@
+POST http://127.0.0.1:5000/pregunta HTTP/1.1
+content-type: application/json
+
+{
+    "pregunta": "¿Cual es la capital de Italia?",
+    "respuesta": "Roma",
+    "opciones": ["Milan", "Venecia", "Turin"]
+}
+###
+POST http://127.0.0.1:5000/pregunta HTTP/1.1
+content-type: application/json
+
+{
+    "pregunta": "¿Cual es la capital de Francia?",
+    "respuesta": "Paris",
+    "opciones": ["Lyon", "Marsella", "Toulouse"]
+}
+###
+POST http://127.0.0.1:5000/pregunta HTTP/1.1
+content-type: application/json
+
+{
+    "pregunta": "¿Cual es la capital de Mexico?",
+    "respuesta": "Ciudad de Mexico",
+    "opciones": ["Toluca", "Puebla", "Guadalajara"]
+}
+###
+POST http://127.0.0.1:5000/pregunta HTTP/1.1
+content-type: application/json
+
+{
+    "pregunta": "¿Cual es la capital de Alemania?",
+    "respuesta": "Berlin",
+    "opciones": ["Munich", "Colonia", "Dresden"]
+}
+###
+POST http://127.0.0.1:5000/pregunta HTTP/1.1
+content-type: application/json
+
+{
+    "pregunta": "¿Cual es la capital de Japon?",
+    "respuesta": "Tokio",
+    "opciones": ["Osaka", "Nagano", "Urawa"]
+}
+###
+
+GET http://127.0.0.1:5000/pregunta HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/pregunta/1 HTTP/1.1
+
+###
+
+DELETE http://127.0.0.1:5000/pregunta/1 HTTP/1.1
+
+###
+PUT http://192.168.0.108:5000/pregunta/1 HTTP/1.1
+content-type: application/json
+
+{
+    "pregunta": "¿Cual es la capital de Alemania?",
+    "respuesta": "Berlin",
+    "opciones": ["Munich", "Colonia", "Dresden"]
+}
+###
+PUT http://127.0.0.1:5000/pregunta/1 HTTP/1.1
+###
+GET http://127.0.0.1:5000/pregunta/random/3 HTTP/1.1
